@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 1300px;
+  height: 1465px;
   width: 100%;
   overflow-x: hidden;
 }
@@ -132,11 +132,11 @@ header {
 }
 
 .media_logo {
-  width: 90px;
+  width: 80px;
   height: 300px;
   position: sticky;
   float: right;
-  padding: 184px 0px 0px 9px;
+  padding: 184px 0px 0px 3px;
 
   top: 10px;
 }
@@ -146,7 +146,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
+  width: 56px;
   height: 60px;
   left: 23px;
   border-radius: 11px;
@@ -166,9 +166,10 @@ header {
   position: relative;
   width: 10rem;
   height: 10rem;
-  top: 580px;
-  left: 86.5%;
+  top: 588px;
+  left: 85.6%;
   position: fixed;
+  z-index: 1;
 }
 
 .help img {
@@ -180,11 +181,12 @@ header {
   display: inline-block;
   position: relative;
   top: 9rem;
-  width: 92%;
+  width: 93%;
   height: 1105px;
-  left: 40px;
+  left: 45px;
   margin: 0;
   padding: 0;
+
   /* border: 5px solid black; */
 }
 .upper {
@@ -246,9 +248,9 @@ textarea {
 .middle {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   position: relative;
-  top: 39px;
+  top: 79px;
 }
 .boxes {
   width: 16rem;
@@ -335,13 +337,12 @@ textarea {
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: 150px;
-  width: 100%;
-  height: 490px;
+  top: 260px;
+  width: 99%;
+  height: 520px;
 
   border-radius: 21px;
   background: #483eff;
-  z-index: -1;
 }
 .side_button {
   /* border: 2px solid black; */
@@ -353,8 +354,8 @@ textarea {
 .display {
   position: relative;
 
-  width: 830px;
-  height: 440px;
+  width: 845px;
+  height: 470px;
   top: 28px;
   right: 25px;
   border-radius: 19px;
@@ -368,6 +369,9 @@ textarea {
   left: 50px;
   border-radius: 15px;
   box-shadow: 0px 6px 35px 0px #00000063;
+}
+.button button {
+  cursor: pointer;
 }
 .bt1 {
   background: #bce0f6;
@@ -408,14 +412,17 @@ textarea {
   background: none;
 }
 .next_button {
+  display: block;
   position: relative;
   width: 150px;
   height: 58px;
-  top: 130px;
+  top: 170px;
   left: 640px;
   border-radius: 9px;
   background: #000000;
+  cursor: pointer;
 }
+
 .next_button button {
   position: relative;
   font-family: Roboto;
@@ -429,12 +436,15 @@ textarea {
   border: none;
   background: none;
   left: 20px;
+  cursor: pointer;
 }
 .next_button img {
   position: relative;
   top: 3px;
   left: 27px;
+  cursor: pointer;
 }
+
 .details {
   position: relative;
   list-style: none;
@@ -445,18 +455,18 @@ textarea {
   letter-spacing: 0.105em;
   text-align: left;
   color: #04285a;
-  left: 70px;
-  top: 70px;
+  left: 75px;
+  top: 72px;
 }
 .display p {
   position: relative;
   font-family: Inter;
-  font-size: 35px;
+  font-size: 41px;
   font-weight: 600;
   line-height: 46px;
   letter-spacing: 0.105em;
   text-align: left;
   color: #04285a;
-  left: 40px;
+  left: 43px;
   top: 40px;
 }

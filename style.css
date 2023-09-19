@@ -149,14 +149,6 @@ header {
   display: block;
 }
 
-.media_logo img {
-  width: 40px;
-  height: 40px;
-  top: 8px;
-  left: 16px;
-  cursor: pointer;
-}
-
 .help {
   position: relative;
   width: 10rem;
@@ -749,7 +741,7 @@ textarea {
     cursor: pointer;
   }
 }
-@media screen and (min-width: 410px) and (max-width: 650px) {
+@media screen and (min-width: 408px) and (max-width: 650px) {
   .lower {
     display: flex;
     flex-direction: column;
@@ -833,5 +825,134 @@ textarea {
   }
   .next_button img {
     display: none;
+  }
+}
+@media screen and (max-width: 408px) {
+  header {
+    height: 20%;
+  }
+  .navbar {
+    position: absolute;
+  }
+  .links {
+    display: flex;
+    width: 85vw;
+  }
+  .logo {
+    position: relative;
+    left: 30px;
+  }
+  .links li {
+    position: relative;
+    font-size: 0.7em;
+  }
+  .drop_down {
+    position: relative;
+    left: 170px;
+  }
+
+  .container {
+    position: absolute;
+    top: 5%;
+  }
+  .left_img img {
+    position: relative;
+
+    width: 65%;
+
+    left: 10px;
+    height: 80%;
+  }
+  .lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+    height: 520px;
+  }
+  .side_button {
+    /* border: 2px solid black; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .button {
+    position: relative;
+    width: 150px;
+    height: 55px;
+    top: 10%;
+    left: 20%;
+    border-radius: 15px;
+    box-shadow: 0px 6px 35px 0px #00000063;
+  }
+  .bt1 button {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+
+    padding-top: 15px;
+  }
+  .bt2 button,
+  .bt3 button {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0.04em;
+  }
+
+  .display {
+    position: relative;
+    left: 3%;
+    height: 50%;
+  }
+  .details {
+    position: relative;
+    font-size: 10px;
+    line-height: 25px;
+    left: 15px;
+    top: 72px;
+    padding: 0;
+  }
+  .display p {
+    position: absolute;
+    font-size: 1rem;
+    margin-top: -30px;
+    left: 30px;
+  }
+  .next_button {
+    width: 75px;
+    height: 35px;
+    position: relative;
+    left: 55%;
+    top: 45%;
+
+    border-radius: 9px;
+    background: #000000;
+    cursor: pointer;
+  }
+
+  .next_button button {
+    position: relative;
+
+    font-size: 22px;
+
+    line-height: 50px;
+    bottom: 8px;
+    left: 13px;
+  }
+  .next_button img {
+    display: none;
+  }
+  .social {
+    position: sticky;
+    top: 0px;
+    margin-top: 25vh;
+    float: right;
   }
 }

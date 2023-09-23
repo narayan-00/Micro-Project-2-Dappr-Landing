@@ -829,7 +829,7 @@ textarea {
 }
 @media screen and (max-width: 408px) {
   header {
-    height: 20%;
+    height: 40px;
   }
   .navbar {
     position: absolute;
@@ -837,6 +837,12 @@ textarea {
   .links {
     display: flex;
     width: 85vw;
+    position: relative;
+    top: -15px;
+  }
+  .search_bar {
+    position: relative;
+    top: -15px;
   }
   .logo {
     position: relative;
@@ -849,6 +855,7 @@ textarea {
   .drop_down {
     position: relative;
     left: 170px;
+    top: -50px;
   }
 
   .container {
@@ -950,6 +957,7 @@ textarea {
     display: none;
   }
   .social {
+    display: none;
     position: sticky;
     top: 0px;
     margin-top: 25vh;
